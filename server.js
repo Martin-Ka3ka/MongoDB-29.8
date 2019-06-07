@@ -6,6 +6,7 @@ mongoose.connect('mongodb://localhost/nodeappdatabase', {
     useMongoClient: true
 });
 
+
 //new user Schema
 const userSchema = new Schema({
     name: String,
